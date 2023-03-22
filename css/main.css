@@ -1,0 +1,240 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	background:pink;
+}
+#myNav{
+	background:pink;
+}
+#myNav .nav-link{
+	color:#fff;
+	margin-left:60px;
+	font-size:30px;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-weight:bold;
+}
+#logo{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-size:60px;
+	font-weight:bold;
+	text-decoration:underline; 
+	color:#fff;
+}
+#img1{
+	border-radius:50%; 
+	position:relative;
+	top:8px; 
+	left:-105px;
+}
+#img2{
+	border-radius:50%; 
+	position:relative;
+	top:233px; 
+	left:-144px;
+}
+#img3{
+	border-radius:50%; 
+	position:relative;
+	top:-698px; 
+	left:348px;
+}
+#he{
+	margin-top:216px;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	color:#fff;
+	text-decoration:underline;
+	font-size:50px;
+}
+#pe{
+	text-align:center;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	font-size:26px;
+	line-height:64px;
+}
+#he1{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	color:#fff;
+	position:relative;
+	top:-319px;
+	left:382px;
+}
+#ha{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	font-family: 'Edu NSW ACT Foundation',cursive; 
+	text-decoration:underline;
+}
+#ha1{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	font-family: 'Edu NSW ACT Foundation',cursive; 
+	text-decoration:underline;
+}
+#ha2{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	font-family: 'Edu NSW ACT Foundation',cursive; 
+	text-decoration:underline;
+}
+#pa2{
+	text-align:center;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	font-size:21px;
+	line-height:64px;
+}
+#ha3{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	font-family: 'Edu NSW ACT Foundation',cursive; 
+	text-decoration:underline;
+}
+#pa3{
+	text-align:center;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	font-size:21px;
+	line-height:50px;
+	border-left:5px solid #fff;
+}
+#pa4{
+	text-align:center;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	font-size:21px;
+	line-height:50px;
+	border-right:5px solid #fff;
+}
+#cont1{
+	width:372px;
+}
+#reg{
+	background:pink;
+	list-style:none;
+	width:300px;
+	margin:0 auto;
+	}
+	#reg li{
+	text-align:center;
+	padding:5px;
+	}
+	#reg li input[type="text"], #reg li input[type="password"]{
+	width:300px;
+	font-size:15px;
+	font-weight:bold;
+	margin:10px;
+	padding:10px 12px;
+	border:2px;
+	letter-spacing:2px;
+	}
+	#reg li input[type="submit"]{
+	font-size:15px;
+	font-weight:bold;
+	background:black;
+	color:white;
+	margin-top:25px;
+	padding:10px 12px;
+	font-family: 'Edu NSW ACT Foundation',cursive;
+	}
+	#par1{
+	margin:-15px 40px;
+	padding:5px;
+	font-size:16px;
+	text-decoration:underline;
+	color:red;
+	}
+	#par4{
+	margin:-15px 40px;
+	padding:5px;
+	font-size:16px;
+	text-decoration:underline;
+	color:red;
+	font-style:italic;
+	}
+.title{
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.description{
+    font-size: 21px;
+    font-weight: 400;
+    color: #888;
+}
+.bold{
+    font-weight: 700;
+}
+.slider{
+    padding: 50px 0;
+}
+.slider-origin{
+    background-color: #fff;
+    border-radius: 50%;
+    /*margin-top: 20%;*/
+    display: inline-block;
+    position: relative;
+}
+.slider-inner{
+    display: inline-block;
+}
+.slider-item{
+    width: 75px;
+    height: 100px;
+    background-color: pink;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    position: absolute;
+    bottom: 200%;
+    left: 35%;
+    margin-left: -37px;
+		cursor: pointer;
+    
+    transform-origin: center 175%;
+    -webkit-transform-origin: center 175%;
+    -ms-transform-origin: center 175%;
+    -moz-transform-origin: center 175%;
+    
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+
+    text-align: left;
+    color: #fff;
+    padding: 7px;
+    box-sizing: border-box;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+.slider-item.active{
+    background-color: pink;
+		cursor: default;
+}
+.slider-item:not(.active):hover{
+	background-color: pink;
+}
+#my-accordion{
+	min-height:500px;
+	height:500px;
+	width:100%;
+}
